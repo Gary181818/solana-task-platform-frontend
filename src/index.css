@@ -1,0 +1,30 @@
+/* index.css */
+
+/* CSS Reset（簡化版本） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* 預設字體與背景 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 移除 list 樣式（如果你懶得每次都寫 list-style: none） */
+ul {
+  list-style: none;
+}
+
+/* 標籤標題間距 */
+h1, h2, h3 {
+  margin-bottom: 0.5rem;
+}
